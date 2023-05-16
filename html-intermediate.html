@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regristration Form</title>
+</head>
+
+<header>
+    <h2>Registration Form</h2>
+</header>
+
+<body>
+    <form>
+        <label for="Firstname">Firstname:</label>
+        <input type="text" placeholder="John" id="Firstname">
+    </form>
+
+    <form>
+        <label for="Lastname">Lastname:</label>
+        <input type="text" placeholder="Doe" id="Lastname">
+    </form>
+    <br>
+    <form>
+        <label for="Course">Course:</label>
+        <select id="Course" name="Course">
+          <option value="HTML">HTML</option>
+          <option value="CSS" selected>CSS</option>
+          <option value="JS">JS</option>
+        </select>
+    </form>
+    <br>
+    <form>
+        <label for="Gender">Gender:</label> <br>
+        <input type="radio" id="Gender" name="Gender" value="Female">Female<br>
+        <input type="radio" id="Gender" name="Gender" value="Male">Male<br>
+        <input type="radio" id="Gender" name="Gender" value="None">None<br>
+    </form>
+    <br>
+    <form>
+        <label for="Hobbies">Hobbies:</label> <br>
+
+        <input type="checkbox" id="Hobbies" name="Hobbies" value="Sports">
+        <label for="Hobbies">Sports</label> <br>
+
+        <input type="checkbox" id="Hobbies" name="Hobbies" value="Cooking">
+        <label for="Hobbies">Cooking</label> <br>
+
+        <input type="checkbox" id="Hobbies" name="Hobbies" value="Drawing" checked>
+        <label for="Hobbies">Drawing</label> <br>
+    </form>
+    <br>
+    <form>
+        <label for="Number">Phone:</label>
+        <input type="text" name="Number" id="Number">
+    </form>
+    <br>
+
+    <label for="Area">Adress:</label> <br>
+    <textarea rows="5" cols="25">Type Adress Here</textarea>
+    <br> <br>
+
+    <form>
+        <label for="Email">Email:</label>
+        <input type="text" id="Email" name="Email" value="johndoe@exemple.com">
+    </form>
+    <br>
+
+    <form>
+        <label for="psw">Password:</label>
+        <input type="password" name="psw" id="psw" value="boop">
+    </form>
+    <br>
+
+    <form>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
